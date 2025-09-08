@@ -2,6 +2,11 @@
 
 @section('title', 'Digital Creative Agency & Branding Services')
 @section('style')
+<style>
+    .hero-cta-slider1 .hero-shape-area .hero-bg-shape .hero-bg-border-anime {
+        inset: unset !important;
+    }
+</style>
 @endsection
 @section('content')
     <!--============================== Hero Area ==============================-->
@@ -14,8 +19,8 @@
                     <span class="title2 custom-anim-top wow animated" data-wow-duration="1.1s" data-wow-delay="0.4s">INNOVATION & BRANDING</span>
                 </h1>
                 <div class="btn-group custom-anim-top wow animated" data-wow-duration="1.2s" data-wow-delay="0.7s">
-                    <a href="about.html" class="th-btn">EXPLORE MORE <i class="fa-solid fa-arrow-right ms-2"></i></a>
-                    <a href="tournament.html" class="th-btn style2">BROWSE GAMES <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                    <a href="{{ route('contact') }}" class="th-btn">CONTACT US <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                    <a href="#" class="th-btn style2">PORTFOLIO <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
@@ -59,21 +64,18 @@
                                         </linearGradient>
                                     </defs>
                                 </svg>
-                                <!-- <div class="verses-thumb d-xl-none d-block">
-                                    <img src="{{ asset('assets/img/tournament/game-vs1.svg') }}" alt="tournament image">
-                                </div> -->
-                                <div class="hero-img1 z-index-common" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 520-658 -->
+                                <div class="hero-img1 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 520-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-1.png') }}" alt="Image">
                                 </div>
-                                <div class="hero-img2 z-index-common" data-ani="slideinright" data-ani-delay="0.4s"><!-- 477-658 -->
+                                <div class="hero-img2 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinright" data-ani-delay="0.4s"><!-- 477-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-2.png') }}" alt="Image">
                                 </div>
                             </div>
                             <div class="title-area mb-0">
                                 <h2 class="sec-title text-white custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.1s">Where Creativity and Innovation Converge</h2>
-                                <p class="mt-30 mb-30 custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.2s">We're a creative agency specializing in brand strategy, digital design, and cutting-edge development solutions that help businesses grow. We deliver innovative development solutions that drive business growth and elevate your brand presence.</p>
+                                <p class="mt-30 mb-30 custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.2s">We're a creative agency specializing in brand strategy, digital design, and cutting-edge design solutions that help streamers to grow. We deliver innovative design that drive your growth and elevate your online presence.</p>
                                 <div class="btn-group custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.2s">
-                                    <a href="about.html" class="th-btn style-border">
+                                    <a href="{{ route('contact') }}" class="th-btn style-border">
                                         <span class="btn-border">
                                             Get in Touch <i class="fa-solid fa-arrow-right ms-2"></i>
                                         </span>
@@ -124,20 +126,20 @@
                                 <!-- <div class="verses-thumb d-xl-none d-block">
                                     <img src="{{ asset('assets/img/tournament/game-vs1.svg') }}" alt="tournament image">
                                 </div> -->
-                                <div class="hero-img1 z-index-common" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 561-658 -->
+                                <div class="hero-img1 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 561-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-3.png') }}" alt="Image">
                                 </div>
-                                <div class="hero-img2 z-index-common" data-ani="slideinright" data-ani-delay="0.4s"><!-- 486-658 -->
+                                <div class="hero-img2 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinright" data-ani-delay="0.4s"><!-- 486-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-4.png') }}" alt="Image">
                                 </div>
                             </div>
                             <div class="title-area mb-0">
-                                <h2 class="sec-title text-white custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.1s">Innovating Brands, Elevating Growth</h2>
-                                <p class="mt-30 mb-30 custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.2s">We craft strategic designs and digital solutions that inspire, engage, and drive lasting success.</p>
+                                <h2 class="sec-title text-white custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.1s">Where Creativity and Innovation Converge</h2>
+                                <p class="mt-30 mb-30 custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.2s">We're a creative agency specializing in brand strategy, digital design, and cutting-edge design solutions that help streamers to grow. We deliver innovative design that drive your growth and elevate your online presence.</p>
                                 <div class="btn-group custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.2s">
-                                    <a href="about.html" class="th-btn style-border">
+                                    <a href="{{ route('contact') }}" class="th-btn style-border">
                                         <span class="btn-border">
-                                            View Portfolio <i class="fa-solid fa-arrow-right ms-2"></i>
+                                            Get in Touch <i class="fa-solid fa-arrow-right ms-2"></i>
                                         </span>
                                     </a>
                                 </div>
@@ -186,20 +188,20 @@
                                 <div class="verses-thumb d-xl-none d-block">
                                     <img src="{{ asset('assets/img/tournament/game-vs1.svg') }}" alt="tournament image">
                                 </div>
-                                <div class="hero-img1 z-index-common" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 476-658 -->
+                                <div class="hero-img1 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 476-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-5.png') }}" alt="Image">
                                 </div>
-                                <div class="hero-img2 z-index-common" data-ani="slideinright" data-ani-delay="0.4s"><!-- 476-658 -->
+                                <div class="hero-img2 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinright" data-ani-delay="0.4s"><!-- 476-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-6.png') }}" alt="Image">
                                 </div>
                             </div>
                             <div class="title-area mb-0">
-                                <h2 class="sec-title text-white custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.1s">Join The Big Tournaments</h2>
-                                <p class="mt-30 mb-30 custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.2s">Beyond esports tournaments, include a broader calendar of gaming events, conferences, and conventions. and connect with each other.</p>
+                                <h2 class="sec-title text-white custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.1s">Where Creativity and Innovation Converge</h2>
+                                <p class="mt-30 mb-30 custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.2s">We're a creative agency specializing in brand strategy, digital design, and cutting-edge design solutions that help streamers to grow. We deliver innovative design that drive your growth and elevate your online presence.</p>
                                 <div class="btn-group custom-anim-top wow animated" data-wow-duration="1.3s" data-wow-delay="0.2s">
-                                    <a href="about.html" class="th-btn style-border">
+                                    <a href="{{ route('contact') }}" class="th-btn style-border">
                                         <span class="btn-border">
-                                            JOIN NOW <i class="fa-solid fa-arrow-right ms-2"></i>
+                                            Get in Touch <i class="fa-solid fa-arrow-right ms-2"></i>
                                         </span>
                                     </a>
                                 </div>
@@ -222,63 +224,31 @@
                         <div class="marquee_icon">
                             <img src="{{ asset('assets/img/normal/star.png') }}" alt="Icon">
                         </div>
-                        <h3 class="marquee-title"><a href="service-details.html">GAMING SPANING</a></h3>
+                        <h3 class="marquee-title"><a href="{{ route('service.details', ['slug' => 'gaming-logo-branding']) }}">Gaming Logo & Branding</a></h3>
                     </div>
-
-                    <!-- Single Item -->
                     <div class="marquee-item swiper-slide">
                         <div class="marquee_icon">
                             <img src="{{ asset('assets/img/normal/star.png') }}" alt="Icon">
                         </div>
-                        <h3 class="marquee-title"><a href="service-details.html">ACTION - PACKED</a></h3>
+                        <h3 class="marquee-title"><a href="{{ route('service.details', ['slug' => 'twitch-overlays-design']) }}">Twitch Overlays Design</a></h3>
                     </div>
-
-                    <!-- Single Item -->
                     <div class="marquee-item swiper-slide">
                         <div class="marquee_icon">
                             <img src="{{ asset('assets/img/normal/star.png') }}" alt="Icon">
                         </div>
-                        <h3 class="marquee-title"><a href="service-details.html">MIND - BENDING</a></h3>
+                        <h3 class="marquee-title"><a href="{{ route('service.details', ['slug' => 'animated-overlays']) }}">Animated Overlays</a></h3>
                     </div>
-
-                    <!-- Single Item -->
                     <div class="marquee-item swiper-slide">
                         <div class="marquee_icon">
                             <img src="{{ asset('assets/img/normal/star.png') }}" alt="Icon">
                         </div>
-                        <h3 class="marquee-title"><a href="service-details.html">COLLECTION OG GAMES</a></h3>
+                        <h3 class="marquee-title"><a href="{{ route('service.details', ['slug' => '2d-3d-vtuber-models']) }}">2D & 3D Vtuber Models</a></h3>
                     </div>
-
-                    <!-- Single Item -->
                     <div class="marquee-item swiper-slide">
                         <div class="marquee_icon">
                             <img src="{{ asset('assets/img/normal/star.png') }}" alt="Icon">
                         </div>
-                        <h3 class="marquee-title"><a href="service-details.html">GAMING SPANING</a></h3>
-                    </div>
-
-                    <!-- Single Item -->
-                    <div class="marquee-item swiper-slide">
-                        <div class="marquee_icon">
-                            <img src="{{ asset('assets/img/normal/star.png') }}" alt="Icon">
-                        </div>
-                        <h3 class="marquee-title"><a href="service-details.html">ACTION - PACKED</a></h3>
-                    </div>
-
-                    <!-- Single Item -->
-                    <div class="marquee-item swiper-slide">
-                        <div class="marquee_icon">
-                            <img src="{{ asset('assets/img/normal/star.png') }}" alt="Icon">
-                        </div>
-                        <h3 class="marquee-title"><a href="service-details.html">MIND - BENDING</a></h3>
-                    </div>
-
-                    <!-- Single Item -->
-                    <div class="marquee-item swiper-slide">
-                        <div class="marquee_icon">
-                            <img src="{{ asset('assets/img/normal/star.png') }}" alt="Icon">
-                        </div>
-                        <h3 class="marquee-title"><a href="service-details.html">COLLECTION OG GAMES</a></h3>
+                        <h3 class="marquee-title"><a href="{{ route('service.details', ['slug' => 'custom-illustrations-art']) }}">Custom Illustrations & Art</a></h3>
                     </div>
 
                 </div>
@@ -306,8 +276,8 @@
                                 <img src="{{ asset('assets/img/normal/about1-2.png') }}" alt="img"> <!-- 105-109 -->
                             </div>
                             <div class="title-area custom-anim-left wow animated" data-wow-duration="1.5s" data-wow-delay="0.1s">
-                                <span class="sub-title"># About Our Gaming Site</span>
-                                <h2 class="sec-title mb-0">Forging Legends in the Gaming Universe</h2>
+                                <span class="sub-title"># About Funix Digital</span>
+                                <h2 class="sec-title mb-0">We’re more than just a design studio</h2>
                             </div>
                         </div>
                         <div class="about-grid">
@@ -315,8 +285,8 @@
                                 <img src="{{ asset('assets/img/icon/about_feature_1.svg') }}" alt="img">
                             </div>
                             <div class="about-grid-details custom-anim-left wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                <h3 class="about-grid_title h5">Over <span class="text-theme">1k+</span> Affiliate Game Programs</h3>
-                                <p class="about-grid_text">Keep users informed about the gaming industry with news articles on releases, updates, and events.</p>
+                                <h3 class="about-grid_title h5">Over <span class="text-theme">1k+</span> Affiliate & Partnerships</h3>
+                                <p class="about-grid_text">Stay ahead with the latest in gaming news, releases, and industry updates.</p>
                             </div>
                         </div>
                         <div class="about-grid">
@@ -324,8 +294,8 @@
                                 <img src="{{ asset('assets/img/icon/about_feature_2.svg') }}" alt="img">
                             </div>
                             <div class="about-grid-details custom-anim-left wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                <h3 class="about-grid_title h5">Great Tournaments</h3>
-                                <p class="about-grid_text">Display a calendar of upcoming tournaments with dates, times, and game titles and provide live updates.</p>
+                                <h3 class="about-grid_title h5">Tournament Highlights</h3>
+                                <p class="about-grid_text">Track upcoming competitions with our live calendar featuring dates, times, and titles.</p>
                             </div>
                         </div>
                         <div class="about-grid">
@@ -333,8 +303,8 @@
                                 <img src="{{ asset('assets/img/icon/about_feature_3.svg') }}" alt="img">
                             </div>
                             <div class="about-grid-details custom-anim-left wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                <h3 class="about-grid_title h5">Get Online Supports</h3>
-                                <p class="about-grid_text">Create profiles for professional esports players, including their bios, achievements, and current teams.</p>
+                                <h3 class="about-grid_title h5">Community & Support</h3>
+                                <p class="about-grid_text">Connect with pro players, explore their journeys, and get 24/7 support from our team.</p>
                             </div>
                         </div>
                     </div>
@@ -343,12 +313,12 @@
         </div>
     </div>
     <!--============================== Game Area   ==============================-->
-    <section class="overflow-hidden">
+    <section class="overflow-hidden" id="latest-work-sec">
         <div class="container th-container2">
             <div class="game-sec-wrap1 space" data-bg-src="{{ asset('assets/img/bg/game-sec1-bg.png') }}">
                 <div class="title-area text-center custom-anim-top wow animated" data-wow-duration="1.5s" data-wow-delay="0.1s">
-                    <span class="sub-title"># Releases The Latest Game</span>
-                    <h2 class="sec-title">Game On, Power Up, Win Big <span class="text-theme">!</span></h2>
+                    <span class="sub-title"># Our Latest Work</span>
+                    <h2 class="sec-title">Think, Design, Grow <span class="text-theme">!</span></h2>
                 </div>
                 <div class="slider-area">
                     <div class="swiper th-slider game-slider-1" id="gameSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
@@ -359,13 +329,9 @@
                                         <a href="game-details.html">
                                             <img src="{{ asset('assets/img/cards/1-1.png') }}" alt="game image"> <!-- 248-240 -->
                                         </a>
-                                        <!-- <div class="game-logo">
-                                            <img src="assets/img/game/logo1-1.png" alt="game logo">
-                                        </div> -->
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">The Hunter Killer</a></h3>
-                                        <p class="game-content">Entry Fee:<span class="text-theme">$10.00</span></p>
+                                        <h3 class="box-title"><a href="game-details.html">2SPYSEE</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -376,13 +342,9 @@
                                         <a href="game-details.html">
                                             <img src="{{ asset('assets/img/cards/2-1.png') }}" alt="game image">
                                         </a>
-                                        <!-- <div class="game-logo">
-                                            <img src="assets/img/game/logo1-2.png" alt="game logo">
-                                        </div> -->
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">Net Remaining Monies</a></h3>
-                                        <p class="game-content">Entry Fee:<span class="text-theme">Free</span></p>
+                                        <h3 class="box-title"><a href="game-details.html">AGENT TALYN</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -393,13 +355,9 @@
                                         <a href="game-details.html">
                                             <img src="assets/img/cards/3-1.png" alt="game image">
                                         </a>
-                                        <!-- <div class="game-logo">
-                                            <img src="assets/img/game/logo1-3.png" alt="game logo">
-                                        </div> -->
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">Duty Balck Ops</a></h3>
-                                        <p class="game-content">Entry Fee:<span class="text-theme">$10.00</span></p>
+                                        <h3 class="box-title"><a href="game-details.html">ANTZMAN24</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -410,13 +368,9 @@
                                         <a href="game-details.html">
                                             <img src="assets/img/cards/4-1.png" alt="game image">
                                         </a>
-                                        <!-- <div class="game-logo">
-                                            <img src="assets/img/game/logo1-4.png" alt="game logo">
-                                        </div> -->
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">League of Legends</a></h3>
-                                        <p class="game-content">Entry Fee:<span class="text-theme">$10.00</span></p>
+                                        <h3 class="box-title"><a href="game-details.html">CAZTIC</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -427,13 +381,9 @@
                                         <a href="game-details.html">
                                             <img src="assets/img/cards/5-1.png" alt="game image">
                                         </a>
-                                        <!-- <div class="game-logo">
-                                            <img src="assets/img/game/logo1-1.png" alt="game logo">
-                                        </div> -->
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">The Hunter Killer</a></h3>
-                                        <p class="game-content">Entry Fee:<span class="text-theme">$10.00</span></p>
+                                        <h3 class="box-title"><a href="game-details.html">DIRTB4II</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -444,13 +394,9 @@
                                         <a href="game-details.html">
                                             <img src="assets/img/cards/6-1.png" alt="game image">
                                         </a>
-                                        <!-- <div class="game-logo">
-                                            <img src="assets/img/game/logo1-2.png" alt="game logo">
-                                        </div> -->
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">Net Remaining Monies</a></h3>
-                                        <p class="game-content">Entry Fee:<span class="text-theme">Free</span></p>
+                                        <h3 class="box-title"><a href="game-details.html">DRAKON KAYRAN</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -461,13 +407,9 @@
                                         <a href="game-details.html">
                                             <img src="assets/img/cards/7-1.png" alt="game image">
                                         </a>
-                                        <!-- <div class="game-logo">
-                                            <img src="assets/img/game/logo1-3.png" alt="game logo">
-                                        </div> -->
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">Duty Balck Ops</a></h3>
-                                        <p class="game-content">Entry Fee:<span class="text-theme">$10.00</span></p>
+                                        <h3 class="box-title"><a href="game-details.html">l3g3ndarya1</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -478,13 +420,9 @@
                                         <a href="game-details.html">
                                             <img src="assets/img/cards/8-1.png" alt="game image">
                                         </a>
-                                        <!-- <div class="game-logo">
-                                            <img src="assets/img/game/logo1-4.png" alt="game logo">
-                                        </div> -->
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">League of Legends</a></h3>
-                                        <p class="game-content">Entry Fee:<span class="text-theme">$10.00</span></p>
+                                        <h3 class="box-title"><a href="game-details.html">LETIGRE</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -501,22 +439,22 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="title-area text-center custom-anim-top wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                        <span class="sub-title"># World Best Facilities Game </span>
-                        <h2 class="sec-title">Bame Comes With Many Facilities Included In Planet <span class="text-theme">!</span></h2>
+                        <span class="sub-title"># World Class Facilities For Gamers </span>
+                        <h2 class="sec-title">Funix Brings Every Streamer the Tools to Shine <span class="text-theme">!</span></h2>
                     </div>
                 </div>
             </div>
-            <div class="feature-sec-wrap1" data-bg-src="assets/img/bg/feature-sec1-bg.png">
+            <div class="feature-sec-wrap1" data-bg-src="{{ asset('assets/img/bg/feature-sec1-bg.png') }}">
                 <div class="feature-card-wrap">
                     <div class="feature-card-border">
                         <div class="feature-card">
                             <div class="feature-card-icon custom-anim-top wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                <span class="feature-card-icon-mask" data-mask-src="assets/img/icon/feature_1.svg"></span>
-                                <img src="assets/img/icon/feature_1.svg" alt="img">
+                                <span class="feature-card-icon-mask" data-mask-src="{{ asset('assets/img/icon/feature_1.svg') }}"></span>
+                                <img src="{{ asset('assets/img/icon/feature_1.svg') }}" alt="img">
                             </div>
                             <div class="feature-card-details custom-anim-top wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                <h3 class="feature-card-title">Esports Lounge</h3>
-                                <p class="feature-card-text">Lounge areas with comfortable seating for relaxation between gaming sessions. Provide snacks, drink, and vending machine for refreshments.</p>
+                                <h3 class="feature-card-title">Animated Alerts</h3>
+                                <p class="feature-card-text">Custom-designed logos built to reflect your unique gaming identity. Perfect for esports teams, streamers, and personal brands.</p>
                             </div>
                         </div>
                     </div>
@@ -525,12 +463,12 @@
                     <div class="feature-card-border">
                         <div class="feature-card">
                             <div class="feature-card-icon custom-anim-top wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                <span class="feature-card-icon-mask" data-mask-src="assets/img/icon/feature_2.svg"></span>
-                                <img src="assets/img/icon/feature_2.svg" alt="img">
+                                <span class="feature-card-icon-mask" data-mask-src="{{ asset('assets/img/icon/feature_2.svg') }}"></span>
+                                <img src="{{ asset('assets/img/icon/feature_2.svg') }}" alt="img">
                             </div>
                             <div class="feature-card-details custom-anim-top wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                <h3 class="feature-card-title">Training Facilities</h3>
-                                <p class="feature-card-text">Lounge areas with comfortable seating for relaxation between gaming sessions. Provide snacks, drink, and vending machine for refreshments.</p>
+                                <h3 class="feature-card-title">Stream Overlays</h3>
+                                <p class="feature-card-text">Enhance your live streams with clean, stylish, and functional overlays. Make your channel look polished and stand out from the crowd.</p>
                             </div>
                         </div>
                     </div>
@@ -539,12 +477,12 @@
                     <div class="feature-card-border">
                         <div class="feature-card">
                             <div class="feature-card-icon custom-anim-top wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                <span class="feature-card-icon-mask" data-mask-src="assets/img/icon/feature_3.svg"></span>
-                                <img src="assets/img/icon/feature_3.svg" alt="img">
+                                <span class="feature-card-icon-mask" data-mask-src="{{ asset('assets/img/icon/feature_3.svg') }}"></span>
+                                <img src="{{ asset('assets/img/icon/feature_3.svg') }}" alt="img">
                             </div>
                             <div class="feature-card-details custom-anim-top wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                <h3 class="feature-card-title">Broadcasting Studio</h3>
-                                <p class="feature-card-text">Lounge areas with comfortable seating for relaxation between gaming sessions. Provide snacks, drink, and vending machine for refreshments.</p>
+                                <h3 class="feature-card-title">Vtuber Models</h3>
+                                <p class="feature-card-text">Fully customized 2D & 3D avatars tailored to your personality. Express yourself with smooth rigging and unique character designs.</p>
                             </div>
                         </div>
                     </div>
@@ -553,7 +491,7 @@
         </div>
     </section>
     <!--============================== Gallery Area   ==============================-->
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0" id="gallery-sec">
         <div class="gallery-area-1 overflow-hidden text-center">
             <div class="slider-area gallery-slider1">
                 <div class="swiper th-slider" id="gallerySlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}},"effect":"coverflow","coverflowEffect":{"rotate":"0","stretch":"0","depth":"150","modifier":"1"},"centeredSlides":"true"}'>
@@ -561,50 +499,50 @@
                         <!--============================== Gallery Area   ==============================-->
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="assets/img/video/1-2.png" alt="img">
-                                <a href="assets/img/video/1-2.png" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/1-2.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/1-2.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="assets/img/video/1-1.png" alt="img"> <!-- 808-500 -->
-                                <a href="assets/img/video/1-1.png" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/1-1.png') }}" alt="img"> <!-- 808-500 -->
+                                <a href="{{ asset('assets/img/video/1-1.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="assets/img/video/1-3.png" alt="img">
-                                <a href="assets/img/video/1-3.png" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/1-3.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/1-3.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="assets/img/video/1-4.png" alt="img">
-                                <a href="assets/img/video/1-4.png" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/1-4.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/1-4.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="assets/img/video/1-5.png" alt="img">
-                                <a href="assets/img/video/1-5.png" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/1-5.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/1-5.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="assets/img/video/1-6.png" alt="img">
-                                <a href="assets/img/video/1-6.png" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/1-6.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/1-6.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="assets/img/video/1-7.png" alt="img">
-                                <a href="assets/img/video/1-7.png" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/1-7.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/1-7.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
@@ -617,13 +555,13 @@
     </div>
     <!--============================== Team Area  ==============================-->
     <section class="team-sec-1 space">
-        <div class="team-shape1-1 shape-mockup" data-top="0" data-right="0"><img src="assets/img/bg/team-sec1-bg.png" alt="img"></div> <!-- 445-860 -->
+        <div class="team-shape1-1 shape-mockup" data-top="0" data-right="0"><img src="{{ asset('assets/img/bg/team-sec1-bg.png') }}" alt="img"></div> <!-- 445-860 -->
         <div class="container th-container3">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-7 col-md-8">
                     <div class="title-area text-center custom-anim-top wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                        <span class="sub-title"># Top World Class Gamer</span>
-                        <h2 class="sec-title">Let’s See Our Pro Players</h2>
+                        <span class="sub-title"># Top World Class Streamer</span>
+                        <h2 class="sec-title">Let’s See Our Latest Work</h2>
                     </div>
                 </div>
             </div>
@@ -639,9 +577,9 @@
                                 <div class="team-card-corner team-card-corner4"></div>
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/244-435-Agent-Talyn.png" alt="Team">
+                                        <img src="{{ asset('assets/img/team/244-435-Agent-Talyn.png') }}" alt="Team">
                                     </div>
-                                    <img class="game-logo" src="assets/img/team/44-50-Agent-Talyn.png" alt="Team">
+                                    <img class="game-logo" src="{{ asset('assets/img/team/44-50-Agent-Talyn.png') }}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
                                     <h3 class="box-title"><a href="team-details.html">Agent-Talyn</a></h3>
@@ -658,9 +596,9 @@
                                 <div class="team-card-corner team-card-corner4"></div>
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/244-435-Cazstic.png" alt="Team">
+                                        <img src="{{ asset('assets/img/team/244-435-Cazstic.png') }}" alt="Team">
                                     </div>
-                                    <img class="game-logo" src="assets/img/team/44-50-Cazstic.png" alt="Team">
+                                    <img class="game-logo" src="{{ asset('assets/img/team/44-50-Cazstic.png') }}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
                                     <h3 class="box-title"><a href="team-details.html">Cazstic</a></h3>
@@ -677,9 +615,9 @@
                                 <div class="team-card-corner team-card-corner4"></div>
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/244-435-Darrowynn.png" alt="Team">
+                                        <img src="{{ asset('assets/img/team/244-435-Darrowynn.png') }}" alt="Team">
                                     </div>
-                                    <img class="game-logo" src="assets/img/team/44-50-Darrowynn.png" alt="Team">
+                                    <img class="game-logo" src="{{ asset('assets/img/team/44-50-Darrowynn.png') }}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
                                     <h3 class="box-title"><a href="team-details.html">Darrowynn</a></h3>
@@ -696,9 +634,9 @@
                                 <div class="team-card-corner team-card-corner4"></div>
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/244-435-FlowerChild0822.png" alt="Team">
+                                        <img src="{{ asset('assets/img/team/244-435-FlowerChild0822.png') }}" alt="Team">
                                     </div>
-                                    <img class="game-logo" src="assets/img/team/44-50-FlowerChild0822.png" alt="Team">
+                                    <img class="game-logo" src="{{ asset('assets/img/team/44-50-FlowerChild0822.png') }}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
                                     <h3 class="box-title"><a href="team-details.html">Flower Child</a></h3>
@@ -715,9 +653,9 @@
                                 <div class="team-card-corner team-card-corner4"></div>
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/244-435-KGLMDEAF.png" alt="Team">
+                                        <img src="{{ asset('assets/img/team/244-435-KGLMDEAF.png') }}" alt="Team">
                                     </div>
-                                    <img class="game-logo" src="assets/img/team/44-50-KGLMDEAF.png" alt="Team">
+                                    <img class="game-logo" src="{{ asset('assets/img/team/44-50-KGLMDEAF.png') }}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
                                     <h3 class="box-title"><a href="team-details.html">KGLMDEAF</a></h3>
@@ -734,9 +672,9 @@
                                 <div class="team-card-corner team-card-corner4"></div>
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/244-435-nickolaijams.png" alt="Team">
+                                        <img src="{{ asset('assets/img/team/244-435-nickolaijams.png') }}" alt="Team">
                                     </div>
-                                    <img class="game-logo" src="assets/img/team/44-50-nickolaijams.png" alt="Team">
+                                    <img class="game-logo" src="{{ asset('assets/img/team/44-50-nickolaijams.png') }}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
                                     <h3 class="box-title"><a href="team-details.html">Nickolai Jams</a></h3>
@@ -753,9 +691,9 @@
                                 <div class="team-card-corner team-card-corner4"></div>
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/244-435-Shintuan.png" alt="Team">
+                                        <img src="{{ asset('assets/img/team/244-435-Shintuan.png') }}" alt="Team">
                                     </div>
-                                    <img class="game-logo" src="assets/img/team/44-50-Shintuan.png" alt="Team">
+                                    <img class="game-logo" src="{{ asset('assets/img/team/44-50-Shintuan.png') }}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
                                     <h3 class="box-title"><a href="team-details.html">Shintuan</a></h3>
@@ -772,9 +710,9 @@
                                 <div class="team-card-corner team-card-corner4"></div>
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/244-435-TatsuoJeff.png" alt="Team">
+                                        <img src="{{ asset('assets/img/team/244-435-TatsuoJeff.png') }}" alt="Team">
                                     </div>
-                                    <img class="game-logo" src="assets/img/team/44-50-TatsuoJeff.png" alt="Team">
+                                    <img class="game-logo" src="{{ asset('assets/img/team/44-50-TatsuoJeff.png') }}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
                                     <h3 class="box-title"><a href="team-details.html">TatsuoJeff</a></h3>
@@ -791,9 +729,9 @@
                                 <div class="team-card-corner team-card-corner4"></div>
                                 <div class="img-wrap">
                                     <div class="team-img">
-                                        <img src="assets/img/team/244-435-XHellraiser.png" alt="Team">
+                                        <img src="{{ asset('assets/img/team/244-435-XHellraiser.png') }}" alt="Team">
                                     </div>
-                                    <img class="game-logo" src="assets/img/team/44-50-XHellraiser.png" alt="Team">
+                                    <img class="game-logo" src="{{ asset('assets/img/team/44-50-XHellraiser.png') }}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
                                     <h3 class="box-title"><a href="team-details.html">XHellraiser</a></h3>
@@ -822,12 +760,12 @@
                     </defs>
                 </svg>
             </div>
-            <div class="cta-wrap-bg bg-repeat" data-bg-src="assets/img/bg/jiji-bg.png" data-mask-src="assets/img/shape/cta-bg-shape1.svg">
+            <div class="cta-wrap-bg bg-repeat" data-bg-src="{{ asset('assets/img/bg/jiji-bg.png') }}" data-mask-src="{{ asset('assets/img/shape/cta-bg-shape1.svg') }}">
                 <div class="cta-bg-img">
-                    <img src="assets/img/bg/cta-sec1-bg.png" alt="img">
+                    <img src="{{ asset('assets/img/bg/cta-sec1-bg.png') }}" alt="img">
                 </div>
                 <div class="cta-thumb">
-                    <img src="assets/img/normal/cta1-1.png" alt="img">
+                    <img src="{{ asset('assets/img/normal/cta1-1.png') }}" alt="img">
                 </div>
             </div>
             <div class="cta-wrap">
@@ -835,246 +773,15 @@
                     <div class="col-xl-5">
                         <div class="title-area mb-0 custom-anim-left wow animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
                             <span class="sub-title"># World Best Gaming Site</span>
-                            <h2 class="sec-title">Join Bame Esports to Become Next <span class="text-theme fw-medium">PRO Gamer Today !</span></h2>
-                            <p class="mt-30 mb-30">Esports and gaming facilities requires thoughtful consideration of various elements to create an environment that caters to the needs of gamers and enhances the overall gaming experience.</p>
-                            <a href="contact.html" class="th-btn">JOIN COMMUNITY <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            <h2 class="sec-title">Join Funix Digital to Level Up Your  <span class="text-theme fw-medium">Gaming Identity Today !</span></h2>
+                            <p class="mt-30 mb-30">From custom gaming logos to Twitch overlays, animated alerts, Vtuber models, and digital artwork — we design everything a gamer or streamer needs to stand out.</p>
+                            <a href="#" class="th-btn">JOIN COMMUNITY <i class="fa-solid fa-arrow-right ms-2"></i></a> <!-- Discord Link -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--============================== Product Area useless ==============================-->
-    <section class="space">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md-auto">
-                    <div class="title-area custom-anim-left wow animated text-md-start text-center" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                        <span class="sub-title"># Gamer Shop</span>
-                        <h2 class="sec-title">Our Latest Gaming Products <span class="text-theme">!</span></h2>
-                    </div>
-                </div>
-                <div class="col-md-auto d-none d-md-block">
-                    <div class="sec-btn">
-                        <div class="icon-box">
-                            <button data-slider-prev="#productSlider1" class="slider-arrow style2 default"><i class="far fa-arrow-left"></i></button>
-                            <button data-slider-next="#productSlider1" class="slider-arrow style2 default"><i class="far fa-arrow-right"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper th-slider has-shadow" id="productSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <div class="th-product product-grid">
-                            <div class="product-img">
-                                <img src="assets/img/product/product_1_1.png" alt="Product Image">
-                                <div class="overlay gradient-border"></div>
-                                <div class="actions">
-                                    <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                    <a href="wishlist.html" class="icon-btn"><i class="fas fa-heart"></i></a>
-                                    <a href="#QuickView" class="icon-btn popup-content"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-details.html">Gaming Headphone</a></h3>
-                                <span class="price">$177.85</span>
-                                <!-- <div class="woocommerce-product-rating">
-                        <span class="count">(120 Reviews)</span>
-                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                            <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
-                        </div>
-                    </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="th-product product-grid">
-                            <div class="product-img">
-                                <img src="assets/img/product/product_1_2.png" alt="Product Image">
-                                <div class="overlay gradient-border"></div>
-                                <div class="actions">
-                                    <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                    <a href="wishlist.html" class="icon-btn"><i class="fas fa-heart"></i></a>
-                                    <a href="#QuickView" class="icon-btn popup-content"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-details.html">Gaming Mouse</a></h3>
-                                <span class="price">$120.00</span>
-                                <!-- <div class="woocommerce-product-rating">
-                        <span class="count">(120 Reviews)</span>
-                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                            <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
-                        </div>
-                    </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="th-product product-grid">
-                            <div class="product-img">
-                                <img src="assets/img/product/product_1_3.png" alt="Product Image">
-                                <div class="overlay gradient-border"></div>
-                                <div class="actions">
-                                    <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                    <a href="wishlist.html" class="icon-btn"><i class="fas fa-heart"></i></a>
-                                    <a href="#QuickView" class="icon-btn popup-content"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-details.html">Gaming Keyboard</a></h3>
-                                <span class="price">$96.85</span>
-                                <!-- <div class="woocommerce-product-rating">
-                        <span class="count">(120 Reviews)</span>
-                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                            <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
-                        </div>
-                    </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="th-product product-grid">
-                            <div class="product-img">
-                                <img src="assets/img/product/product_1_4.png" alt="Product Image">
-                                <div class="overlay gradient-border"></div>
-                                <div class="actions">
-                                    <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                    <a href="wishlist.html" class="icon-btn"><i class="fas fa-heart"></i></a>
-                                    <a href="#QuickView" class="icon-btn popup-content"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-details.html">Gaming Chair</a></h3>
-                                <span class="price">$08.85<del>$06.99</del></span>
-                                <!-- <div class="woocommerce-product-rating">
-                        <span class="count">(120 Reviews)</span>
-                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                            <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
-                        </div>
-                    </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="th-product product-grid">
-                            <div class="product-img">
-                                <img src="assets/img/product/product_1_5.png" alt="Product Image">
-                                <div class="overlay gradient-border"></div>
-                                <div class="actions">
-                                    <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                    <a href="wishlist.html" class="icon-btn"><i class="fas fa-heart"></i></a>
-                                    <a href="#QuickView" class="icon-btn popup-content"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-details.html">Microphone G9000</a></h3>
-                                <span class="price">$32.85</span>
-                                <!-- <div class="woocommerce-product-rating">
-                        <span class="count">(120 Reviews)</span>
-                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                            <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
-                        </div>
-                    </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="th-product product-grid">
-                            <div class="product-img">
-                                <img src="assets/img/product/product_1_6.png" alt="Product Image">
-                                <div class="overlay gradient-border"></div>
-                                <div class="actions">
-                                    <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                    <a href="wishlist.html" class="icon-btn"><i class="fas fa-heart"></i></a>
-                                    <a href="#QuickView" class="icon-btn popup-content"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-details.html">Play Station Controller</a></h3>
-                                <span class="price">$30.85</span>
-                                <!-- <div class="woocommerce-product-rating">
-                        <span class="count">(120 Reviews)</span>
-                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                            <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
-                        </div>
-                    </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="th-product product-grid">
-                            <div class="product-img">
-                                <img src="assets/img/product/product_1_7.png" alt="Product Image">
-                                <div class="overlay gradient-border"></div>
-                                <div class="actions">
-                                    <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                    <a href="wishlist.html" class="icon-btn"><i class="fas fa-heart"></i></a>
-                                    <a href="#QuickView" class="icon-btn popup-content"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-details.html">PlayStation VR</a></h3>
-                                <span class="price">$232.85</span>
-                                <!-- <div class="woocommerce-product-rating">
-                        <span class="count">(120 Reviews)</span>
-                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                            <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
-                        </div>
-                    </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="th-product product-grid">
-                            <div class="product-img">
-                                <img src="assets/img/product/product_1_8.png" alt="Product Image">
-                                <div class="overlay gradient-border"></div>
-                                <div class="actions">
-                                    <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                    <a href="wishlist.html" class="icon-btn"><i class="fas fa-heart"></i></a>
-                                    <a href="#QuickView" class="icon-btn popup-content"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title"><a href="shop-details.html">Wireless speaker</a></h3>
-                                <span class="price">$30.85</span>
-                                <!-- <div class="woocommerce-product-rating">
-                        <span class="count">(120 Reviews)</span>
-                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                            <span>Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
-                        </div>
-                    </div> -->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="d-block d-md-none mt-40 text-center">
-                <div class="icon-box">
-                    <button data-slider-prev="#productSlider1" class="slider-arrow style2 default"><i class="far fa-arrow-left"></i></button>
-                    <button data-slider-next="#productSlider1" class="slider-arrow style2 default"><i class="far fa-arrow-right"></i></button>
-                </div>
-            </div>
-        </div>
-    </section>
     <!--============================== Blog Area  ==============================-->
     <section class="" id="blog-sec">
         <div class="container">
@@ -1089,7 +796,7 @@
                             <div class="blog-card">
                                 <div class="blog-img">
                                     <a href="{{ route('blog.details', ['slug' => 'best-twitch-overlays-and-logos-to-level-up-your-stream-in-2025']) }}">
-                                        <img src="assets/img/blog/392-300-Best-Twitch-Overlays-and-Logos-to-Level-Up-Your-Stream-in-2025.png" alt="Best-Twitch-Overlays-and-Logos-to-Level-Up-Your-Stream-in-2025">
+                                        <img src="{{ asset('assets/img/blog/392-300-Best-Twitch-Overlays-and-Logos-to-Level-Up-Your-Stream-in-2025.png') }}" alt="Best-Twitch-Overlays-and-Logos-to-Level-Up-Your-Stream-in-2025">
                                     </a>
                                 </div>
                                 <div class="blog-content">
@@ -1107,7 +814,7 @@
                             <div class="blog-card">
                                 <div class="blog-img">
                                     <a href="{{ route('blog.details', ['slug' => 'stream-branding-101-how-to-build-a-unique-twitch-channel']) }}">
-                                        <img src="assets/img/blog/392-300-Stream-Branding-101-How-to-Build-a-Unique-Twitch-Channel.png" alt="Stream-Branding-101-How-to-Build-a-Unique-Twitch-Channel">
+                                        <img src="{{ asset('assets/img/blog/392-300-Stream-Branding-101-How-to-Build-a-Unique-Twitch-Channel.png') }}" alt="Stream-Branding-101-How-to-Build-a-Unique-Twitch-Channel">
                                     </a>
                                 </div>
                                 <div class="blog-content">
@@ -1125,7 +832,7 @@
                             <div class="blog-card">
                                 <div class="blog-img">
                                     <a href="{{ route('blog.details', ['slug' => 'the-difference-between-static-and-animated-twitch-overlays']) }}">
-                                        <img src="assets/img/blog/392-300-The-Difference-Between-Static-and-Animated-Twitch-Overlays.png" alt="The-Difference-Between-Static-and-Animated-Twitch-Overlays">
+                                        <img src="{{ asset('assets/img/blog/392-300-The-Difference-Between-Static-and-Animated-Twitch-Overlays.png') }}" alt="The-Difference-Between-Static-and-Animated-Twitch-Overlays">
                                     </a>
                                 </div>
                                 <div class="blog-content">
@@ -1151,109 +858,109 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-Agent-Talyn.png" alt="Agent-Talyn">
+                            <img src="{{ asset('assets/img/client/90-120-Agent-Talyn.png') }}" alt="Agent-Talyn">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-antzman24.png" alt="antzman24">
+                            <img src="{{ asset('assets/img/client/90-120-antzman24.png') }}" alt="antzman24">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-Cazstic.png" alt="Cazstic">
+                            <img src="{{ asset('assets/img/client/90-120-Cazstic.png') }}" alt="Cazstic">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-Darrowynn.png" alt="Darrowynn">
+                            <img src="{{ asset('assets/img/client/90-120-Darrowynn.png') }}" alt="Darrowynn">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-DirtB4II.png" alt="DirtB4II">
+                            <img src="{{ asset('assets/img/client/90-120-DirtB4II.png') }}" alt="DirtB4II">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-Drakon_Kayran.png" alt="Drakon_Kayran">
+                            <img src="{{ asset('assets/img/client/90-120-Drakon_Kayran.png') }}" alt="Drakon_Kayran">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-Dylo603.png" alt="Dylo603">
+                            <img src="{{ asset('assets/img/client/90-120-Dylo603.png') }}" alt="Dylo603">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-Flippy.png" alt="Flippy">
+                            <img src="{{ asset('assets/img/client/90-120-Flippy.png') }}" alt="Flippy">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-Ghostframe-Gaming.png" alt="Ghostframe-Gaming">
+                            <img src="{{ asset('assets/img/client/90-120-Ghostframe-Gaming.png') }}" alt="Ghostframe-Gaming">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-GHOSTWALL.png" alt="GHOSTWALL">
+                            <img src="{{ asset('assets/img/client/90-120-GHOSTWALL.png') }}" alt="GHOSTWALL">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-Guzz.png" alt="Guzz">
+                            <img src="{{ asset('assets/img/client/90-120-Guzz.png') }}" alt="Guzz">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-Hunterito00.png" alt="Hunterito00">
+                            <img src="{{ asset('assets/img/client/90-120-Hunterito00.png') }}" alt="Hunterito00">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-illidian88.png" alt="illidian88">
+                            <img src="{{ asset('assets/img/client/90-120-illidian88.png') }}" alt="illidian88">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-letigre.png" alt="letigre">
+                            <img src="{{ asset('assets/img/client/90-120-letigre.png') }}" alt="letigre">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-Mystic.png" alt="Mystic">
+                            <img src="{{ asset('assets/img/client/90-120-Mystic.png') }}" alt="Mystic">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-nickolaijams.png" alt="nickolaijams">
+                            <img src="{{ asset('assets/img/client/90-120-nickolaijams.png') }}" alt="nickolaijams">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120-PangolinMkV.png" alt="PangolinMkV">
+                            <img src="{{ asset('assets/img/client/90-120-PangolinMkV.png') }}" alt="PangolinMkV">
                         </a>
                     </div>
 
                     <div class="swiper-slide">
                         <a href="#" class="client-card">
-                            <img src="assets/img/client/90-120alex_the_-great5404.png" alt="alex_the_-great5404">
+                            <img src="{{ asset('assets/img/client/90-120alex_the_-great5404.png') }}" alt="alex_the_-great5404">
                         </a>
                     </div>
 
@@ -1261,9 +968,6 @@
             </div>
         </div>
     </div>
-    {{-- @section('footer')
-        @include('home.partials.footer-alt')
-    @endsection --}}
 @endsection
 @section('scripts')
 @endsection

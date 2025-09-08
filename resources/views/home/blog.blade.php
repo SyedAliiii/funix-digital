@@ -96,7 +96,4 @@
         </div>
     </div>
 </section>
-@section('footer')
-    @include('home.partials.footer-alt')
-@endsection
 @endsection

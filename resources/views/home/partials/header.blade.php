@@ -9,7 +9,7 @@
                     <div class="header-links">
                         <ul>
                             <li>
-                                <div class="header-notice">Welcome to our <a href="{{ route('home') }}">Bame</a> Esports team</div>
+                                <div class="header-notice">Welcome to our <a href="{{ route('home') }}">Funix Digital</a></div>
                             </li>
                             <li>
                                 <div class="dropdown-link">
@@ -50,65 +50,19 @@
                     <div class="col-auto">
                         <div class="header-logo">
                             <a href="{{ route('home') }}">
-                                <span data-mask-src="{{ asset('assets/img/logo.svg') }}" class="logo-mask"></span>
-                                <img src="{{ asset('assets/img/logo.svg') }}" alt="Bame">
+                                {{-- <span data-mask-src="{{ asset('assets/img/logo.png') }}" class="logo-mask"></span> --}}
+                                <img src="{{ asset('assets/img/logo.png') }}" alt="Funix Digital">
                             </a>
                         </div>
                     </div>
                     <div class="col-auto">
                         <nav class="main-menu d-none d-lg-inline-block">
                             <ul>
-                                <li class="menu-item-has-children">
-                                    <a href="{{ route('home') }}">HOME</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="{{ route('home') }}">Home Esports</a></li>
-                                        <li><a href="home-2.html">Home Streaming</a></li>
-                                        <li><a href="home-3.html">Home Video Gaming</a></li>
-                                        <li><a href="home-4.html">Home Tournament</a></li>
-                                        <li><a href="home-5.html">Home Gamer</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about.html">ABOUT US</a></li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">TOURNAMENT</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="tournament.html">Tournament</a></li>
-                                        <li><a href="tournament-details.html">Tournament Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">BLOG</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">PAGES</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Shop</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="shop.html">Shop</a></li>
-                                                <li><a href="shop-details.html">Shop Details</a></li>
-                                                <li><a href="cart.html">Cart Page</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                                <li><a href="wishlist.html">Wishlist</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="team.html">Players</a></li>
-                                        <li><a href="team-details.html">Players Details</a></li>
-                                        <li><a href="game.html">Game</a></li>
-                                        <li><a href="game-details.html">Game Details</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="point-table.html">Point Table</a></li>
-                                        <li><a href="error.html">Error Page</a></li>
-                                    </ul>
-                                </li>
-
-                                <li>
-                                    <a href="contact.html">CONTACT</a>
-                                </li>
+                                <li><a href="{{ route('home') }}">HOME</a></li>
+                                <li><a href="{{ route('home') }}#about-sec">ABOUT US</a></li>
+                                <li><a href="{{ route('home') }}#latest-work-sec">Latest Work</a></li>
+                                <li><a href="{{ route('home') }}#gallery-sec">Gallery</a></li>
+                                <li><a href="{{ route('home') }}#blog-sec">Blogs</a></li>
                             </ul>
                         </nav>
                         <div class="header-button d-flex d-lg-none">
@@ -122,7 +76,7 @@
                                 <i class="fa-solid fa-bars"></i>
                             </button>
                             <div class="d-xxl-block d-none">
-                                <a href="contact.html" class="th-btn"><i class="fa-brands fa-twitch me-1"></i> Live Streaming</a>
+                                <a href="{{ route('contact') }}" class="th-btn"><i class="fa-brands fa-twitch me-1"></i> CONTACT US</a>
                             </div>
                         </div>
                     </div>
