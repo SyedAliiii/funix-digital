@@ -37,3 +37,11 @@ jobs:
           local_path: './'
           remote_path: 'domains/funixdigital.com/public_html/' 
           sftp_only: true
+          exclude: |
+            **/.git*
+            **/.github/**
+            **/node_modules/**
+            **/vendor/**          # 🚫 don’t upload vendor
+            **/tests/**
+            **/storage/logs/**
+            **/.env
