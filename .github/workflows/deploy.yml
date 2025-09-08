@@ -1,12 +1,12 @@
-name: Funix - FTP Deploy Laravel
+name: Funix - SFTP Deploy Laravel
 
 on:
   push:
     branches:
-      - main   # Change this if your main branch is different
+      - main   # Change if your default branch is different
 
 jobs:
-  ftp-deploy:
+  sftp-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,11 +27,13 @@ jobs:
 
       - run: composer install --no-dev --optimize-autoloader
 
-      - name: 📤 Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - name: 📤 Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ${{ secrets.FTP_HOST }}
+          port: 65002 # default SFTP port
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          port: ${{ secrets.FTP_PORT }}
-          server-dir: /public_html/
+          local_path: './'
+          remote_path: '/public_html/'
+          sftp_only: true
