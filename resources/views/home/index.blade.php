@@ -64,10 +64,10 @@
                                         </linearGradient>
                                     </defs>
                                 </svg>
-                                <div class="hero-img1 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 520-658 -->
+                                <div class="hero-img1 z-index-common pb-sm-0 pb-lg-5 pb-0" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 520-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-1.png') }}" alt="Image">
                                 </div>
-                                <div class="hero-img2 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinright" data-ani-delay="0.4s"><!-- 477-658 -->
+                                <div class="hero-img2 z-index-common pb-sm-0 pb-lg-5 pb-0" data-ani="slideinright" data-ani-delay="0.4s"><!-- 477-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-2.png') }}" alt="Image">
                                 </div>
                             </div>
@@ -126,10 +126,10 @@
                                 <!-- <div class="verses-thumb d-xl-none d-block">
                                     <img src="{{ asset('assets/img/tournament/game-vs1.svg') }}" alt="tournament image">
                                 </div> -->
-                                <div class="hero-img1 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 561-658 -->
+                                <div class="hero-img1 z-index-common pb-sm-0 pb-lg-5 pb-0" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 561-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-3.png') }}" alt="Image">
                                 </div>
-                                <div class="hero-img2 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinright" data-ani-delay="0.4s"><!-- 486-658 -->
+                                <div class="hero-img2 z-index-common pb-sm-0 pb-lg-5 pb-0" data-ani="slideinright" data-ani-delay="0.4s"><!-- 486-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-4.png') }}" alt="Image">
                                 </div>
                             </div>
@@ -188,10 +188,10 @@
                                 <div class="verses-thumb d-xl-none d-block">
                                     <img src="{{ asset('assets/img/tournament/game-vs1.svg') }}" alt="tournament image">
                                 </div>
-                                <div class="hero-img1 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 476-658 -->
+                                <div class="hero-img1 z-index-common pb-sm-0 pb-lg-5 pb-0" data-ani="slideinleft" data-ani-delay="0.4s"><!-- 476-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-5.png') }}" alt="Image">
                                 </div>
-                                <div class="hero-img2 z-index-common pb-sm-0 pb-md-5 pb-lg-5 pb-5" data-ani="slideinright" data-ani-delay="0.4s"><!-- 476-658 -->
+                                <div class="hero-img2 z-index-common pb-sm-0 pb-lg-5 pb-0" data-ani="slideinright" data-ani-delay="0.4s"><!-- 476-658 -->
                                     <img src="{{ asset('assets/img/hero/hero-1-6.png') }}" alt="Image">
                                 </div>
                             </div>

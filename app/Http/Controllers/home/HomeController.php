@@ -4,6 +4,7 @@ namespace App\Http\Controllers\home;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -189,5 +190,37 @@ class HomeController extends Controller
         if (!isset($services[$slug])) abort(404);
 
         return view('home.service', [ 'service' => $services[$slug] ]);
+    }
+    public function contactSend(Request $request)
+    {
+        $request->validate([
+            'name'    => 'required|string|max:255',
+            'email'   => 'required|email',
+            'number'  => 'nullable|string|max:20',
+            'subject' => 'required|string|max:100',
+            'message' => 'required|string',
+        ]);
+        // dd($request->all());
+
+        $data = $request->only('name', 'email', 'number', 'subject', 'message');
+
+        try {
+            Mail::send('emails.contact', [
+                'name'    => $data['name'],
+                'email'   => $data['email'],
+                'number'  => $data['number'],
+                'subject' => $data['subject'],
+                'user_message' => $data['message'],
+            ], function ($m) use ($data) {
+                $m->from('info@funixdigital.com', 'Funix Digital')
+                ->replyTo($data['email'], $data['name'])
+                ->to('info@funixdigital.com')
+                ->subject('New Contact Form: ' . $data['subject']);
+            });
+        } catch (\Exception $e) {
+            \Log::error('Mail sending failed: '.$e->getMessage());
+            return back()->with(['status' => 'error', 'message' => 'Something went wrong. Please try again later.']);
+        }
+        return back()->with(['status' => 'success', 'message' => 'Your message has been sent successfully!']);
     }
 }

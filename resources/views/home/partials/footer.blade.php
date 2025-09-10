@@ -14,7 +14,7 @@
                     <li><a href="{{ route('home') }}#latest-work-sec">Latest Work</a></li>
                     <li><a href="{{ route('home') }}#gallery-sec">Gallery</a></li>
                     <li><a href="{{ route('home') }}#blog-sec">Blogs</a></li>
-                    <li><a href="{{ route('contact') }}#blog-sec">Contact</a></li>
+                    <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </div>
         </div>

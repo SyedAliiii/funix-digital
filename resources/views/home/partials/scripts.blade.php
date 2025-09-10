@@ -1,6 +1,4 @@
 
-<!-- Jquery -->
-<script src="{{ asset('assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
 <!-- Swiper Js -->
 <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
 <!-- Bootstrap -->

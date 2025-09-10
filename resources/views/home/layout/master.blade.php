@@ -16,22 +16,6 @@
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Favicons - Place favicon.ico in the root directory -->
-    {{-- <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicons/apple-icon-60x60.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicons/apple-icon-72x72.png') }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/favicons/apple-icon-76x76.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/favicons/apple-icon-114x114.png') }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/favicons/apple-icon-120x120.png') }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/favicons/apple-icon-144x144.png') }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/favicons/apple-icon-152x152.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicons/apple-icon-180x180.png') }}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/img/favicons/android-icon-192x192.png') }}"> --}}
-    {{-- <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/favicons/favicon-96x96.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicons/favicon-16x16.png') }}">
-    <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}"> --}}
-
     <!-- Favicon -->
     <link rel="icon" sizes="192x192" href="{{ asset('assets/img/favicons/android-chrome-192x192.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
@@ -66,6 +50,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <!-- Jquery -->
+    <script src="{{ asset('assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
     @yield('style')
 </head>
 
@@ -81,13 +67,69 @@
     @include('home.partials.sidebar')
     @include('home.partials.mobile-sidebar')
     @yield('header', view('home.partials.header'))
-
+    @if (session('message'))
+        <script>
+            $(document).ready(function () {
+                _alert("{{ session('message') }}", "success");
+            });
+        </script>
+    @endif
+    @if (session('error'))
+        <script>
+            $(document).ready(function () {
+                _alert("{{ session('error') }}", "warning");
+            });
+        </script>
+    @endif
     @yield('content')
 
     @include('home.partials.footer')
     @include('home.partials.scripts')
 
     @yield('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        const _alert = (msg, type = 'success') => {
+            const icons = {
+                success: '#28a745',
+                error: '#f27474',
+                warning: '#ffc107',
+                info: '#17a2b8'
+            };
+            Swal.fire({
+                position: 'top-end',
+                icon: type,
+                title: `<span style="font-size: 15px;">${msg}</span>`,
+                showConfirmButton: false,
+                timer: 3000,
+                toast: true,
+                background: '#1e1e1e',   // dark background
+                color: '#fff', 
+                customClass: { title: 'custom-title', popup: 'custom-toast' },
+                iconColor: icons[type] || icons.success
+            });
+        }
+        const confirmationModal = (title = 'Are You Sure?', icon = 'warning') => {
+            return Swal.fire({
+                title, icon,
+                confirmButtonText: "Yes",
+                cancelButtonText: "Cancel",
+                showCancelButton: true,
+                showCloseButton: true
+            });
+        };
+        // Usage :)
+        // let alMsg = 'Are you sure these details are proper?';
+        // confirmationModal(alMsg).then((result) => {
+        //     if (result.isConfirmed) {
+        //         _alert('Is Confirmed');
+        //     } else {
+        //         _alert('Is Cancel', 'error');
+        //         return;
+        //     }
+        //     console.log('ggs')
+        // });
+    </script>
 </body>
 
 </html>
