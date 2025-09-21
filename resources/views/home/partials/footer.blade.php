@@ -28,8 +28,9 @@
                         <div class="th-widget-contact">
                             <div class="info-box">
                                 <p class="info-box_text">
-                                    Floor 2, 4 Naval St, Ancoats, Manchester
-                                    M4 6EW, United Kingdom
+                                    6 Ascot road Aylesbury
+                                    <br>
+                                    Postal Code: HP 201HX
                                 </p>
                             </div>
                         </div>
@@ -41,7 +42,7 @@
                         <div class="th-widget-contact">
                             <div class="info-box">
                                 <p class="info-box_text">
-                                    <a class="info-box_link" href="tel:163254736587">(+163)-2547-36587</a>
+                                    <a class="info-box_link" href="tel:01296435023">(+012)-96435023</a>
                                     <a class="info-box_link" href="mailto:infohelp@Funix Digitalexample.com">info@funixdigital.com</a>
                                 </p>
                             </div>
