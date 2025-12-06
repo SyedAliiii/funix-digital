@@ -54,7 +54,7 @@
                         <h3 class="widget_title">Follow <span class="text-theme">With Us:</span></h3>
                         <div class="th-widget-contact">
                             <div class="th-social style-mask">
-                                <a class="tiktok" href="https://www.tiktok.com/@funixdigital/"><i class="fab fa-ftiktok"></i></a>
+                                <a class="" href="https://www.tiktok.com/@funixdigital/"><i class="fab fa-tiktok"></i></a>
                                 {{-- <a class="twitter" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a class="google-play" href="https://www.google.com/"><img src="{{ asset('assets/img/icon/google-playstore-icon.svg') }}" alt="icon"></a> --}}
                                 <a class="instagram" href="https://www.instagram.com/funixdigital/"><i class="fab fa-instagram"></i></a>
