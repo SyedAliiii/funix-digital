@@ -11,7 +11,7 @@
                             <li>
                                 <div class="header-notice">Welcome to our <a href="{{ route('home') }}">Funix Digital</a></div>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <div class="dropdown-link">
                                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe"></i> English</a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
@@ -25,17 +25,15 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
                 </div>
                 <div class="col-auto">
                     <div class="header-links">
                         <ul>
-                            <li><a href="https://www.facebook.com/">Facebook</a></li>
-                            <li><a href="https://www.twitter.com/">Twitter</a></li>
-                            <li><a href="https://www.pinterest.com/">Pinterest</a></li>
-                            <li><a href="https://www.instagram.com/">Instagram</a></li>
+                            <li><a href="https://www.tiktok.com/@funixdigital/">Tiktok</a></li>
+                            <li><a href="https://www.instagram.com/funixdigital/">Instagram</a></li>
                         </ul>
                     </div>
                 </div>
