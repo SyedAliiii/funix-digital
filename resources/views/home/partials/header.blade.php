@@ -32,8 +32,8 @@
                 <div class="col-auto">
                     <div class="header-links">
                         <ul>
-                            <li><a href="https://www.tiktok.com/@funixdigital/">Tiktok</a></li>
-                            <li><a href="https://www.instagram.com/funixdigital/">Instagram</a></li>
+                            <li><a href="https://www.tiktok.com/@funixdigital/" target="blank">Tiktok</a></li>
+                            <li><a href="https://www.instagram.com/funixdigital/" target="blank">Instagram</a></li>
                         </ul>
                     </div>
                 </div>

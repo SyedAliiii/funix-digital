@@ -28,9 +28,11 @@
                         <div class="th-widget-contact">
                             <div class="info-box">
                                 <p class="info-box_text">
-                                    6 Ascot road Aylesbury
+                                    PRINCIPAL PLACE OF BUSINESS
                                     <br>
-                                    Postal Code: HP 201HX
+                                    1309 Coffeen Avenue STE 18630
+                                    <br>
+                                    Sheridan Wyoming 82801
                                 </p>
                             </div>
                         </div>
@@ -42,7 +44,7 @@
                         <div class="th-widget-contact">
                             <div class="info-box">
                                 <p class="info-box_text">
-                                    <a class="info-box_link" href="tel:01296435023">(+012)-96435023</a>
+                                    {{-- <a class="info-box_link" href="tel:01296435023">(+012)-96435023</a> --}}
                                     <a class="info-box_link" href="mailto:infohelp@Funix Digitalexample.com">info@funixdigital.com</a>
                                 </p>
                             </div>
@@ -54,10 +56,10 @@
                         <h3 class="widget_title">Follow <span class="text-theme">With Us:</span></h3>
                         <div class="th-widget-contact">
                             <div class="th-social style-mask">
-                                <a class="" href="https://www.tiktok.com/@funixdigital/"><i class="fab fa-tiktok"></i></a>
+                                <a class="" href="https://www.tiktok.com/@funixdigital/" target="blank"><i class="fab fa-tiktok"></i></a>
                                 {{-- <a class="twitter" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a class="google-play" href="https://www.google.com/"><img src="{{ asset('assets/img/icon/google-playstore-icon.svg') }}" alt="icon"></a> --}}
-                                <a class="instagram" href="https://www.instagram.com/funixdigital/"><i class="fab fa-instagram"></i></a>
+                                <a class="instagram" href="https://www.instagram.com/funixdigital/" target="blank"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>

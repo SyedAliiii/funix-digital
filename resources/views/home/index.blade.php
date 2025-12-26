@@ -20,7 +20,7 @@
                 </h1>
                 <div class="btn-group custom-anim-top wow animated" data-wow-duration="1.2s" data-wow-delay="0.7s">
                     <a href="{{ route('contact') }}" class="th-btn">CONTACT US <i class="fa-solid fa-arrow-right ms-2"></i></a>
-                    <a href="#" class="th-btn style2">PORTFOLIO <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                    <a href="https://www.artstation.com/funixartstation" target="blank" class="th-btn style2">PORTFOLIO <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>

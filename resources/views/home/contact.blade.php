@@ -87,9 +87,11 @@
                             <div class="media-body">
                                 <h4 class="box-title">ADDRESS:</h4>
                                 <a href="https://maps.app.goo.gl/osaZAr2F8ZAywZKy5" target="_blank" class="contact-feature_link">
-                                    6 Ascot road Aylesbury
+                                    PRINCIPAL PLACE OF BUSINESS
                                     <br>
-                                    Postal Code: HP 201HX
+                                    1309 Coffeen Avenue STE 18630
+                                    <br>
+                                    Sheridan Wyoming 82801
                                 </a>
                             </div>
                         </div>
