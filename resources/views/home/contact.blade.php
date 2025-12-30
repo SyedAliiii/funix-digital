@@ -75,8 +75,7 @@
                         <div class="title-area">
                             <span class="sub-title style2"># Information</span>
                             <h2 class="sec-title text-white">
-                                Contact Information's
-                                <span class="text-theme">!</span>
+                                Contact Information's <span class="text-theme">!</span>
                             </h2>
                         </div>
                         <div class="contact-feature">
