@@ -326,12 +326,12 @@
                             <div class="swiper-slide">
                                 <div class="game-card gradient-border">
                                     <div class="game-card-img">
-                                        <a href="game-details.html">
-                                            <img src="{{ asset('assets/img/cards/1-1.png') }}" alt="game image"> <!-- 248-240 -->
-                                        </a>
+                                        <div>
+                                            <img src="{{ asset('assets/img/cards/1.png') }}" alt="game image"> <!-- 248-240 -->
+                                        </div>
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">2SPYSEE</a></h3>
+                                        <h3 class="box-title"><div>2SPYSEE</div></h3>
                                     </div>
                                 </div>
                             </div>
@@ -339,12 +339,12 @@
                             <div class="swiper-slide">
                                 <div class="game-card gradient-border">
                                     <div class="game-card-img">
-                                        <a href="game-details.html">
-                                            <img src="{{ asset('assets/img/cards/2-1.png') }}" alt="game image">
-                                        </a>
+                                        <div>
+                                            <img src="{{ asset('assets/img/cards/2.png') }}" alt="game image">
+                                        </div>
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">AGENT TALYN</a></h3>
+                                        <h3 class="box-title"><div>AGENT TALYN</div></h3>
                                     </div>
                                 </div>
                             </div>
@@ -352,12 +352,12 @@
                             <div class="swiper-slide">
                                 <div class="game-card gradient-border">
                                     <div class="game-card-img">
-                                        <a href="game-details.html">
-                                            <img src="assets/img/cards/3-1.png" alt="game image">
-                                        </a>
+                                        <div>
+                                            <img src="assets/img/cards/3.png" alt="game image">
+                                        </div>
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">ANTZMAN24</a></h3>
+                                        <h3 class="box-title"><div>ANTZMAN24</div></h3>
                                     </div>
                                 </div>
                             </div>
@@ -365,12 +365,12 @@
                             <div class="swiper-slide">
                                 <div class="game-card gradient-border">
                                     <div class="game-card-img">
-                                        <a href="game-details.html">
-                                            <img src="assets/img/cards/4-1.png" alt="game image">
-                                        </a>
+                                        <div>
+                                            <img src="assets/img/cards/4.png" alt="game image">
+                                        </div>
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">CAZTIC</a></h3>
+                                        <h3 class="box-title"><div>CAZTIC</div></h3>
                                     </div>
                                 </div>
                             </div>
@@ -378,12 +378,12 @@
                             <div class="swiper-slide">
                                 <div class="game-card gradient-border">
                                     <div class="game-card-img">
-                                        <a href="game-details.html">
-                                            <img src="assets/img/cards/5-1.png" alt="game image">
-                                        </a>
+                                        <div>
+                                            <img src="assets/img/cards/5.png" alt="game image">
+                                        </div>
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">DIRTB4II</a></h3>
+                                        <h3 class="box-title"><div>DIRTB4II</div></h3>
                                     </div>
                                 </div>
                             </div>
@@ -391,12 +391,12 @@
                             <div class="swiper-slide">
                                 <div class="game-card gradient-border">
                                     <div class="game-card-img">
-                                        <a href="game-details.html">
-                                            <img src="assets/img/cards/6-1.png" alt="game image">
-                                        </a>
+                                        <div>
+                                            <img src="assets/img/cards/6.png" alt="game image">
+                                        </div>
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">DRAKON KAYRAN</a></h3>
+                                        <h3 class="box-title"><div>DRAKON KAYRAN</div></h3>
                                     </div>
                                 </div>
                             </div>
@@ -404,12 +404,12 @@
                             <div class="swiper-slide">
                                 <div class="game-card gradient-border">
                                     <div class="game-card-img">
-                                        <a href="game-details.html">
-                                            <img src="assets/img/cards/7-1.png" alt="game image">
-                                        </a>
+                                        <div>
+                                            <img src="assets/img/cards/7.png" alt="game image">
+                                        </div>
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">l3g3ndarya1</a></h3>
+                                        <h3 class="box-title"><div>l3g3ndarya1</div></h3>
                                     </div>
                                 </div>
                             </div>
@@ -417,12 +417,12 @@
                             <div class="swiper-slide">
                                 <div class="game-card gradient-border">
                                     <div class="game-card-img">
-                                        <a href="game-details.html">
-                                            <img src="assets/img/cards/8-1.png" alt="game image">
-                                        </a>
+                                        <div>
+                                            <img src="assets/img/cards/8.png" alt="game image">
+                                        </div>
                                     </div>
                                     <div class="game-card-details my-3">
-                                        <h3 class="box-title"><a href="game-details.html">LETIGRE</a></h3>
+                                        <h3 class="box-title"><div>LETIGRE</div></h3>
                                     </div>
                                 </div>
                             </div>
@@ -444,7 +444,7 @@
                     </div>
                 </div>
             </div>
-            <div class="feature-sec-wrap1" data-bg-src="{{ asset('assets/img/bg/feature-sec1-bg.png') }}">
+            <div class="feature-sec-wrap1" data-bg-src="{{ asset('assets/img/bg/large.png') }}">
                 <div class="feature-card-wrap">
                     <div class="feature-card-border">
                         <div class="feature-card">
@@ -499,50 +499,64 @@
                         <!--============================== Gallery Area   ==============================-->
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="{{ asset('assets/img/video/1-2.png') }}" alt="img">
-                                <a href="{{ asset('assets/img/video/1-2.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/1.png') }}" alt="img"> <!-- 808-500 -->
+                                <a href="{{ asset('assets/img/video/1.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="{{ asset('assets/img/video/1-1.png') }}" alt="img"> <!-- 808-500 -->
-                                <a href="{{ asset('assets/img/video/1-1.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/2.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/2.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="{{ asset('assets/img/video/1-3.png') }}" alt="img">
-                                <a href="{{ asset('assets/img/video/1-3.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/3.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/3.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="{{ asset('assets/img/video/1-4.png') }}" alt="img">
-                                <a href="{{ asset('assets/img/video/1-4.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/4.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/4.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="{{ asset('assets/img/video/1-5.png') }}" alt="img">
-                                <a href="{{ asset('assets/img/video/1-5.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/5.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/5.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="{{ asset('assets/img/video/1-6.png') }}" alt="img">
-                                <a href="{{ asset('assets/img/video/1-6.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/6.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/6.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 
                         <div class="swiper-slide gallery-wrap1">
                             <div class="th-video">
-                                <img src="{{ asset('assets/img/video/1-7.png') }}" alt="img">
-                                <a href="{{ asset('assets/img/video/1-7.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                                <img src="{{ asset('assets/img/video/7.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/7.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide gallery-wrap1">
+                            <div class="th-video">
+                                <img src="{{ asset('assets/img/video/8.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/8.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide gallery-wrap1">
+                            <div class="th-video">
+                                <img src="{{ asset('assets/img/video/9.png') }}" alt="img">
+                                <a href="{{ asset('assets/img/video/9.png') }}" class="play-btn popup-image style3"><i class="fa-solid fa-arrow-up-right"></i></a>
                             </div>
                         </div>
 

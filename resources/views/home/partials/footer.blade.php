@@ -57,9 +57,9 @@
                         <div class="th-widget-contact">
                             <div class="th-social style-mask">
                                 <a class="" href="https://www.tiktok.com/@funixdigital/" target="blank"><i class="fab fa-tiktok"></i></a>
-                                {{-- <a class="twitter" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                <a class="google-play" href="https://www.google.com/"><img src="{{ asset('assets/img/icon/google-playstore-icon.svg') }}" alt="icon"></a> --}}
+                                {{-- <a class="google-play" href="https://www.google.com/"><img src="{{ asset('assets/img/icon/google-playstore-icon.svg') }}" alt="icon"></a> --}}
                                 <a class="instagram" href="https://www.instagram.com/funixdigital/" target="blank"><i class="fab fa-instagram"></i></a>
+                                <a class="facebook" href="https://www.facebook.com/funixdigital/" target="blank"><i class="fab fa-facebook"></i></a>
                             </div>
                         </div>
                     </div>

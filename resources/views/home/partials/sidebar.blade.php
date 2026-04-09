@@ -83,16 +83,12 @@
                 <h3 class="widget_title">Follow <span class="text-theme">With Us:</span></h3>
                 <div class="th-widget-contact">
                     <div class="th-social style-mask">
-                        <a class="facebook" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="twitter" href="https://www.twitter.com/"><img
-                                src="{{ asset('assets/img/icon/x-twitter-icon.svg') }}" alt="icon"></a>
-                        <a class="instagram" href="https://www.instagram.com/">
-                            <img src="{{ asset('assets/img/icon/instagram-icon.svg') }}" alt="icon">
-                        </a>
+                        <a class="tiktok" href="https://www.tiktok.com/@funixdigital/" target="blank"><i class="fab fa-tiktok"></i></a>
+                        <a class="facebook" href="https://www.facebook.com/funixdigital/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="instagram" href="https://www.instagram.com/funixdigital/" target="blank"><img src="{{ asset('assets/img/icon/instagram-icon.svg') }}" alt="icon"></a>
+                        {{-- <a class="twitter" href="https://www.twitter.com/"><img src="{{ asset('assets/img/icon/x-twitter-icon.svg') }}" alt="icon"></a>
                         <a class="linkedin" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                        <a class="google-play" href="https://www.google.com/">
-                            <img src="{{ asset('assets/img/icon/google-playstore-icon.svg') }}" alt="icon">
-                        </a>
+                        <a class="google-play" href="https://www.google.com/"><img src="{{ asset('assets/img/icon/google-playstore-icon.svg') }}" alt="icon"></a> --}}
                     </div>
                 </div>
             </div>
