@@ -15,6 +15,8 @@
                     <li><a href="{{ route('home') }}#gallery-sec">Gallery</a></li>
                     <li><a href="{{ route('home') }}#blog-sec">Blogs</a></li>
                     <li><a href="{{ route('contact') }}">Contact</a></li>
+                    <li><a href="{{ route('terms') }}">Terms & Conditions</a></li>
+                    <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
                 </ul>
             </div>
         </div>
@@ -30,9 +32,11 @@
                                 <p class="info-box_text">
                                     PRINCIPAL PLACE OF BUSINESS
                                     <br>
-                                    1309 Coffeen Avenue STE 18630
+                                    24301 Brazos Town Crossing
                                     <br>
-                                    Sheridan Wyoming 82801
+                                    Suite 500 PMB1053
+                                    <br>
+                                    Rosenberg, TX 77471 United States
                                 </p>
                             </div>
                         </div>
@@ -79,11 +83,18 @@
     </div>
     <div class="copyright-wrap text-center bg-repeat" data-bg-src="{{ asset('assets/img/bg/jiji-bg.png') }}">
         <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-lg-6">
-                    <p class="copyright-text bg-repeat" data-bg-src="{{ asset('assets/img/bg/jiji-bg.png') }}">
-                        <i class="fal fa-copyright"></i> Copyright 2024 <a href="{{ route('home') }}">Funix Digital.</a> All Rights Reserved.
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-6 text-lg-start text-center mb-2 mb-lg-0">
+                    <p class="copyright-text bg-repeat mb-0" data-bg-src="{{ asset('assets/img/bg/jiji-bg.png') }}">
+                        <i class="fal fa-copyright"></i> Copyright 2026 <a href="{{ route('home') }}">Funix Digital.</a> All Rights Reserved.
                     </p>
+                </div>
+                <div class="col-lg-6 text-lg-end text-center">
+                    <ul class="footer-bottom-links list-inline mb-0">
+                        <li class="list-inline-item"><a href="{{ route('terms') }}" class="text-muted small text-decoration-none">Terms & Conditions</a></li>
+                        <li class="list-inline-item text-muted">•</li>
+                        <li class="list-inline-item"><a href="{{ route('privacy') }}" class="text-muted small text-decoration-none">Privacy Policy</a></li>
+                    </ul>
                 </div>
             </div>
         </div>

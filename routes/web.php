@@ -10,3 +10,6 @@ Route::view('contact', 'home.contact')->name('contact');
 Route::post('contact/send', [HomeController::class, 'contactSend'])->name('contact.send');
 
 Route::get('service/{slug}', [HomeController::class, 'serviceDetails'])->name('service.details');
+
+Route::view('terms-and-conditions', 'home.terms')->name('terms');
+Route::view('privacy-policy', 'home.privacy')->name('privacy');

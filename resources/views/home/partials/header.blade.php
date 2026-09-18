@@ -32,6 +32,8 @@
                 <div class="col-auto">
                     <div class="header-links">
                         <ul>
+                            <li><a href="{{ route('terms') }}">Terms</a></li>
+                            <li><a href="{{ route('privacy') }}">Privacy</a></li>
                             <li><a href="https://www.tiktok.com/@funixdigital/" target="blank">Tiktok</a></li>
                             <li><a href="https://www.instagram.com/funixdigital/" target="blank">Instagram</a></li>
                         </ul>

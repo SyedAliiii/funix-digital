@@ -158,6 +158,15 @@
             </div>
 
         </div>
+        <div class="widget">
+            <h3 class="widget_title">Legal <span class="text-theme">& Policies</span></h3>
+            <div class="footer-links">
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2"><a href="{{ route('terms') }}" class="text-white d-flex align-items-center gap-2"><i class="fas fa-file-contract text-theme"></i> Terms & Conditions</a></li>
+                    <li><a href="{{ route('privacy') }}" class="text-white d-flex align-items-center gap-2"><i class="fas fa-shield-alt text-theme"></i> Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="widget newsletter-widget  ">
             <h3 class="widget_title">Newsletter</h3>
             <p class="footer-text">Subscribe to our newsletter to get our

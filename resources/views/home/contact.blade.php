@@ -85,13 +85,15 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="box-title">ADDRESS:</h4>
-                                <a href="https://maps.app.goo.gl/osaZAr2F8ZAywZKy5" target="_blank" class="contact-feature_link">
-                                    PRINCIPAL PLACE OF BUSINESS
-                                    <br>
-                                    1309 Coffeen Avenue STE 18630
-                                    <br>
-                                    Sheridan Wyoming 82801
-                                </a>
+                                <a href="https://maps.google.com/?q=24301+Brazos+Town+Crossing+Suite+500+PMB1053+Rosenberg+TX+77471+United+States" target="_blank" class="contact-feature_link">
+                                     PRINCIPAL PLACE OF BUSINESS
+                                     <br>
+                                     24301 Brazos Town Crossing
+                                     <br>
+                                     Suite 500 PMB1053
+                                     <br>
+                                     Rosenberg, TX 77471 United States
+                                 </a>
                             </div>
                         </div>
                         {{-- <div class="contact-feature">
@@ -108,15 +110,15 @@
                         <div class="contact-feature">
                             <div class="contact-feature-icon icon-masking">
                                 <span class="mask-icon"
-                                    data-mask-src="assets/img/icon/contact-envelope-icon1.svg"></span>
+                                     data-mask-src="assets/img/icon/contact-envelope-icon1.svg"></span>
                                 <img src="assets/img/icon/contact-envelope-icon1.svg" alt="img" />
                             </div>
                             <div class="media-body">
                                 <h4 class="box-title">OFFICE EMAIL:</h4>
                                 <a href="mailto:info@funixdigital.com" class="contact-feature_link">Office Mail:
-                                    info@funixdigital.com</a>
+                                     info@funixdigital.com</a>
                                 <a href="mailto:info@funixdigital.com" class="contact-feature_link">CEO Mail:
-                                    info@funixdigital.com</a>
+                                     info@funixdigital.com</a>
                             </div>
                         </div>
                     </div>
@@ -127,7 +129,7 @@
 
     <div class="contact-map">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.8348090681466!2d-106.94353192406165!3d44.78417297855405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335f1770937b28d%3A0x38aabd600a7d02ad!2s1309%20Coffeen%20Ave!5e0!3m2!1sen!2s!4v1768932321484!5m2!1sen!2s"
+            src="https://maps.google.com/maps?q=24301+Brazos+Town+Crossing+Suite+500+PMB1053+Rosenberg+TX+77471&t=&z=15&ie=UTF8&iwloc=&output=embed"
             allowfullscreen="" loading="lazy"></iframe>
     </div>
 @endsection
