@@ -3,7 +3,7 @@ name: Funix - SFTP Deploy Laravel
 on:
   push:
     branches:
-      - main   # Change if your default branch is different
+      - main
 
 jobs:
   sftp-deploy:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: 📂 Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: 📤 Deploy via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
@@ -23,12 +23,5 @@ jobs:
           local_path: './'
           remote_path: 'domains/funixdigital.com/public_html/'
           sftp_only: true
-          exclude: |
-            **/.git*
-            **/.github/**
-            **/node_modules/**
-            **/vendor/**          # don’t upload vendor
-            **/tests/**
-            **/storage/logs/**
-            **/.env
-            **/bootstrap/cache/*.php
+          delete_remote_files: false
+          rsyncArgs: '--exclude=.git* --exclude=.github --exclude=node_modules --exclude=vendor --exclude=tests --exclude=storage/logs --exclude=.env --exclude=bootstrap/cache/*.php'
